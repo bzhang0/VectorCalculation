@@ -19,7 +19,10 @@ public class VectorCalculation {
         System.out.print("How many vectors do you want to compute? ");
         int answer = console.nextInt();
 
+        // final x displacement
         double xFinal = 0;
+
+        // final y displacement
         double yFinal = 0;
 
         for (int i = 1; i <= answer; i++) {
